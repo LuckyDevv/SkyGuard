@@ -5,9 +5,7 @@ from Utils.CommandHandler import CommandHandler
 from Utils.DatabaseManager import DatabaseManager
 from Utils.QueryHandler import QueryHandler
 
-# Тестовый бот 7829240892:AAGTdtDQ_Jw5eJuQ9MKo8uQNDEeyJJgn3xQ
-# Продакшн бот
-TOKEN = "7829240892:AAGTdtDQ_Jw5eJuQ9MKo8uQNDEeyJJgn3xQ"  # Введите сюда токен своего Telegram-бота
+TOKEN = ""  # Введите сюда токен своего Telegram-бота
 bot = telebot.TeleBot(TOKEN)
 bot.set_webhook()
 images_directory = os.path.dirname(__file__)+"/images/"
